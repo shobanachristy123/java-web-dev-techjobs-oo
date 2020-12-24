@@ -17,4 +17,16 @@ public class Main {
 //        }
 //    }
 
+
+    Job job1 = new Job("job1", "Mastercard");
+    Job job2 = new Job("job2", "mastercard");
+    Job job3 = new Job("job3", "mastercard");
+
+    Employer mastercard = new Employer(
+            "Mastercard"
+    );
+    Job job1 = new Job("job1", mastercard);
+    Job job2 = new Job("job2", mastercard);
+    Job job3 = new Job("job3", mastercard);
+
 }
